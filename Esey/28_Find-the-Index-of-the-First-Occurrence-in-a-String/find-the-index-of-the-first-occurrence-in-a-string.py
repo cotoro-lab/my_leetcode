@@ -13,4 +13,8 @@ class Solution:
 
         # 一番早かった処理
         # rtn = haystack.find(needle)
+
+        # index()メソッドを使った処理
+        # hs_list = list(haystack)
+        # rtn = hs_list.index(needle) if needle in hs_list else -1
         return rtn
