@@ -20,5 +20,4 @@ class Solution:
         # except ValueError:
         #     return -1
 
-
         return rtn
