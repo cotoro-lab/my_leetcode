@@ -15,6 +15,10 @@ class Solution:
         # rtn = haystack.find(needle)
 
         # index()メソッドを使った処理
-        # hs_list = list(haystack)
-        # rtn = hs_list.index(needle) if needle in hs_list else -1
+        # try:
+        #     return haystack.index(needle)
+        # except ValueError:
+        #     return -1
+
+
         return rtn
